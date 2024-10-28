@@ -111,10 +111,10 @@ const Contact: React.FC = () => {
 
     try {
       await emailjs.send(
-        'service_agvp2sz',
-        'template_b0trd35',
+        'service_6hnefvs',
+        'template_19tcxbn',
         templateParams,
-        'eq_7G2CPHOva33sEn'
+        'RqiFUbV1vEzB-cvVr'
       );
       toast.success('Email sent successfully!', {
         position: "top-right",
