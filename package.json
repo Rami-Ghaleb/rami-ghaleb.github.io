@@ -1,7 +1,7 @@
 {
   "name": "personalsite",
   "version": "0.1.0",
-  "homepage": "https://rami-ghaleb.github.io",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.0.0",
