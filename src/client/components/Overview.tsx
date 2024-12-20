@@ -84,7 +84,7 @@ const Overview: React.FC = () => {
 
                     <div className="flex flex-col md:flex-row gap-4 mt-6">
                         <a
-                            href="https://drive.google.com/file/d/1woywFNyhOs0DnWW0VeqrYykbm1ogjCoP/view"
+                            href="https://drive.google.com/file/d/1woywFNyhOs0DnWW0VeqrYykbm1ogjCoP/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             className={`flex items-center justify-center px-6 py-3 bg-red-500 text-white font-bold rounded-lg shadow-lg border-4 border-red-500 ${animate ? 'animate-pulse-border' : ''} hover:bg-red-600 transition duration-200`}
