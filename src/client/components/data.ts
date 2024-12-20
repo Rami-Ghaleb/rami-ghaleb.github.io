@@ -105,11 +105,11 @@ This internship taught me the value of adaptability and precision in high-stakes
     duration: 'Aug. 2023 — May 2024',
     company: 'Systems Engineering Inc.',
     position: 'Software Developer',
-    summary: 'Developed a ReactJS GUI with an Oracle Database and Django backend to optimize USMC task scheduling, enhancing bias mitigation and task efficiency.',
-    briefDescription: 'At Systems Engineering Inc., I created a ReactJS GUI integrated with an Oracle Database and Django backend to streamline USMC task scheduling. By implementing genetic, first-fit, and greedy algorithms, I increased task completion rates by 40%. I collaborated closely with stakeholders through iterative feedback from demos, refining product features and reducing cognitive load in task assignments. The scheduling tool was presented at the IEEE SIEDS conference and is now actively used by the USMC.',
+    summary: 'Developed a ReactJS GUI with an MongoDB and Django backend to optimize USMC task scheduling, enhancing bias mitigation and task efficiency.',
+    briefDescription: 'At Systems Engineering Inc., I created a ReactJS GUI integrated with an MongoDB and Django backend to streamline USMC task scheduling. By implementing genetic, first-fit, and greedy algorithms, I increased task completion rates by 40%. I collaborated closely with stakeholders through iterative feedback from demos, refining product features and reducing cognitive load in task assignments. The scheduling tool was presented at the IEEE SIEDS conference and is now actively used by the USMC.',
     fullDescription: `### Role & Responsibilities
 
-As a Software Developer at Systems Engineering Inc., I was responsible for designing a task scheduling tool aimed at optimizing operations for the USMC. My primary focus was building a user-friendly ReactJS GUI integrated with an Oracle Database and Django backend. I collaborated with team members to iteratively develop features based on stakeholder feedback, ensuring the tool met operational needs.
+As a Software Developer at Systems Engineering Inc., I was responsible for designing a task scheduling tool aimed at optimizing operations for the USMC. My primary focus was building a user-friendly ReactJS GUI integrated with an MongoDB and Django backend. I collaborated with team members to iteratively develop features based on stakeholder feedback, ensuring the tool met operational needs.
 
 ### Technical Strategy & Implementation
 
@@ -236,10 +236,10 @@ export const projects: Item[] = [
     title: 'Troop to Task Manager',
     duration: 'Aug. 2023 — May 2024',
     summary: 'Developed a task scheduling application for the USMC to optimize task assignments, reduce bias, and improve scheduling efficiency.',
-    briefDescription: 'Built a web app using ReactJS, Django, and Oracle Database to enhance USMC task scheduling. By implementing efficient interval scheduling algorithms, the tool increased task completion rates by 40%.',
+    briefDescription: 'Built a web app using ReactJS, Django, and MongoDB Database to enhance USMC task scheduling. By implementing efficient interval scheduling algorithms, the tool increased task completion rates by 40%.',
     fullDescription: `### Project Description and Impact
 
-The Troop to Task Manager is a specialized scheduling tool developed for the United States Marine Corps (USMC) to optimize task assignments, mitigate bias, and reduce cognitive load on schedulers. The app leverages a powerful backend built with Django and Oracle Database, combined with a ReactJS front-end, creating an intuitive interface for users.
+The Troop to Task Manager is a specialized scheduling tool developed for the United States Marine Corps (USMC) to optimize task assignments, mitigate bias, and reduce cognitive load on schedulers. The app leverages a powerful backend built with Django and MongoDB, combined with a ReactJS front-end, creating an intuitive interface for users.
 
 Through extensive testing of genetic, first-fit, and greedy algorithms, the tool was fine-tuned to provide efficient interval scheduling, resulting in a 40% increase in task completion rates. This project included frequent feedback loops with USMC stakeholders to refine product features and ensure the tool’s effectiveness in real-world applications.
 
@@ -247,7 +247,7 @@ The project was presented at the IEEE SIEDS conference, leading to the publicati
 
 ### What I Learned
 
-This project expanded my expertise in **web application development**, particularly in using ReactJS for dynamic front-end interfaces and Django for a robust backend. I also gained practical experience in database management with Oracle, ensuring data integrity and efficient retrieval for complex scheduling algorithms.
+This project expanded my expertise in **web application development**, particularly in using ReactJS for dynamic front-end interfaces and Django for a robust backend. I also gained practical experience in database management with MongoDB, ensuring data integrity and efficient retrieval for complex scheduling algorithms.
 
 Additionally, the project emphasized the value of algorithmic design in optimizing real-world processes. Through implementing and testing various scheduling algorithms, I gained a deeper understanding of computational efficiency and its impact on operational outcomes.
 
@@ -261,7 +261,7 @@ Working on the Troop to Task Manager was a pivotal experience, highlighting the 
   
 - Django: Employed for the backend to manage task scheduling logic, user authentication, and API integration.
   
-- Oracle Database: Leveraged for data storage and retrieval, ensuring high performance and data integrity in handling large-scale scheduling data.
+- MongoDB: Leveraged for data storage and retrieval, ensuring high performance and data integrity in handling large-scale scheduling data.
   
 - Algorithmic Scheduling: Tested and implemented genetic, first-fit, and greedy algorithms, optimizing scheduling efficiency and increasing task completion rates.
   

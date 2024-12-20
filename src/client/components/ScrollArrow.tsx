@@ -33,7 +33,7 @@ const ScrollArrow: React.FC = () => {
         <div className="fixed bottom-8 right-8 cursor-pointer space-y-4">
             <div
                 className={`p-6 text-xl font-bold border-[3px] drop-shadow-2xl ${animateResume ? 'animate-pulse-border' : 'border-red-500'} bg-white text-black rounded-lg flex-1 text-center hover:bg-gray-100 transition duration-200 flex items-center justify-center cursor-pointer`}
-                onClick={() => handleDownload('/files/Harshal_Arakala_Resume_UVA.pdf', 'Harshal_Arakala_Resume_UVA.pdf')}
+                onClick={() => handleDownload('/files/RamiGhalebResume.pdf', 'RamiGhalebResume.pdf')}
             >
                 <FaFileDownload className="inline-block mr-4 w-6 h-6" />
                 Resume
@@ -41,7 +41,7 @@ const ScrollArrow: React.FC = () => {
 
             <div
                 className={`p-6 text-xl font-bold border-[3px] drop-shadow-2xl ${animateTranscript ? 'animate-pulse-border' : 'border-red-500'} bg-white text-black rounded-lg flex-1 text-center hover:bg-gray-100 transition duration-200 flex items-center justify-center cursor-pointer`}
-                onClick={() => handleDownload('/files/Harshal_Arakala_Transcript_UVA.pdf', 'Harshal_Arakala_Transcript_UVA.pdf')}
+                onClick={() => handleDownload('/files/RamiGhalebTranscriptpdf', 'RamiGhalebTranscript_UVA.pdf')}
             >
                 <FaFileDownload className="inline-block mr-4 w-6 h-6" />
                 Transcript
