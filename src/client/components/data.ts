@@ -31,12 +31,12 @@ export const experiences: Item[] = [
     summary:
       'Researched and developed novel machine learning techniques for collaborative spectrum sensing within cloud-based distributed radio frequency systems.',
     briefDescription:
-      'At AWS, I focused on developing innovative ML techniques to enhance collaborative spectrum sensing in distributed cloud RF systems. I leveraged AWS Bedrock and SageMaker to train models, adapt fusion methods for RF fingerprinting, and refine signal detection accuracy. This work contributed to more efficient RF identification and classification.',
+      'Through my research sponsored by AWS, I focused on developing innovative ML techniques to enhance collaborative spectrum sensing in distributed cloud RF systems. I leveraged AWS Bedrock and SageMaker to train models, adapt fusion methods for RF fingerprinting, and refine signal detection accuracy. This work contributed to more efficient RF identification and classification.',
     fullDescription: `My time at AWS was both a technical and strategic journey, filled with opportunities to dive deep into machine learning and cloud-based radio frequency systems.
 
 ### Project Scope & Responsibilities
 
-A major project involved developing collaborative spectrum sensing algorithms to improve the accuracy of RF fingerprinting within distributed systems. I utilized CNNs to identify and classify radio frequency signals while adapting existing fusion models for enhanced performance. I built and trained these models using AWS Bedrock and SageMaker, ensuring the solution was scalable and effective in real-world scenarios.
+My role involved developing collaborative spectrum sensing algorithms to improve the accuracy of RF fingerprinting within distributed systems. I utilized CNNs to identify and classify radio frequency signals while adapting existing fusion models for enhanced performance. I built and trained these models using AWS Bedrock and SageMaker, ensuring the solution was scalable and effective in real-world scenarios.
 
 ### Advanced Technologies & Solutions
 
