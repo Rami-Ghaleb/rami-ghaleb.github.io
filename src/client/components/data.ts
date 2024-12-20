@@ -131,12 +131,12 @@ This experience not only enhanced my skills in full-stack development but also d
     company: 'Google',
     position: 'Research Fellow',
     summary: 'Collaborated with students from leading universities to address key challenges in computer science through research and practical applications in NLP and sentiment analysis.',
-    briefDescription: 'As a Research Fellow in the Google CS Research Mentorship Program, I worked closely with a team to apply advanced research methodologies in NLP. We tackled sentiment analysis challenges using BERT-based models, focusing on data quality and accuracy, and collaborated on refining ML models to interpret emerging tech discussions.',
+    briefDescription: 'As a Research Fellow in the Google CS Research Mentorship Program, I worked closely with a team to apply advanced research methodologies in NLP. We tackled sentiment analysis challenges using a BERT-based LLM, focusing on data quality and accuracy, and collaborated on refining ML models to interpret emerging tech discussions.',
     fullDescription: `
 
 ### Role & Responsibilities
 
-In Google’s CS Research Mentorship Program, I participated in collaborative research projects, learning advanced methodologies in natural language processing (NLP) and machine learning. Our team worked with a BERT-based model to conduct sentiment analysis on emerging technology discussions, focusing on optimizing model performance through data quality and validation techniques.
+In Google’s CS Research Mentorship Program, I participated in collaborative research projects, learning advanced methodologies in natural language processing (NLP) and machine learning. Our team worked with a BERT-based LLM to conduct sentiment analysis on emerging technology discussions, focusing on optimizing model performance through data quality and validation techniques.
 
 ### Research Methodologies & Collaboration
 
@@ -247,7 +247,7 @@ The project was presented at the IEEE SIEDS conference, leading to the publicati
 
 ### What I Learned
 
-This project expanded my expertise in **web application development**, particularly in using ReactJS for dynamic front-end interfaces and Django for a robust backend. I also gained practical experience in database management with MongoDB, ensuring data integrity and efficient retrieval for complex scheduling algorithms.
+This project expanded my expertise in web application development, particularly in using ReactJS for dynamic front-end interfaces and Django for a robust backend. I also gained practical experience in database management with MongoDB, ensuring data integrity and efficient retrieval for complex scheduling algorithms.
 
 Additionally, the project emphasized the value of algorithmic design in optimizing real-world processes. Through implementing and testing various scheduling algorithms, I gained a deeper understanding of computational efficiency and its impact on operational outcomes.
 
@@ -257,7 +257,7 @@ Working on the Troop to Task Manager was a pivotal experience, highlighting the 
 
 ### What Tech I Learned
 
-- ReactJS: Used to build an intuitive, responsive user interface that enhances the user experience.
+ReactJS: Used to build an intuitive, responsive user interface that enhances the user experience.
   
 - Django: Employed for the backend to manage task scheduling logic, user authentication, and API integration.
   
@@ -291,7 +291,7 @@ Building this model highlighted the value of sentiment analysis in understanding
 
 ### What Tech I Learned
 
-- BERT: Fine-tuned a pre-trained BERT model for sentiment classification, adapting it to social media language.
+ BERT: Fine-tuned a pre-trained BERT model for sentiment classification, adapting it to social media language.
   
 - Hugging Face Transformers: Used to streamline NLP model setup, training, and fine-tuning processes.
   
@@ -317,7 +317,7 @@ The bot accesses the Reddit API to extract high-impact posts from specific subre
 
 ### What I Learned
 
-This project provided hands-on experience with **Reddit API integration** and Discord bot development. I gained proficiency in **web scraping** and automated data extraction, particularly in navigating API limitations and content filtering to ensure data relevance. Additionally, I learned about deploying bots in live environments and managing bot permissions within Discord.
+This project provided hands-on experience with Reddit API integration and Discord bot development. I gained proficiency in web scraping and automated data extraction, particularly in navigating API limitations and content filtering to ensure data relevance. Additionally, I learned about deploying bots in live environments and managing bot permissions within Discord.
 
 ### How It Changed Me
 
@@ -325,7 +325,7 @@ Creating this bot deepened my understanding of cybersecurity trends and threat i
 
 ### What Tech I Learned
 
-- Python: Utilized for developing the bot’s logic, handling API requests, and processing text data from Reddit.
+Python: Utilized for developing the bot’s logic, handling API requests, and processing text data from Reddit.
   
 - Reddit API: Integrated to access and filter posts from cybersecurity-focused subreddits, implementing efficient data extraction strategies.
   
