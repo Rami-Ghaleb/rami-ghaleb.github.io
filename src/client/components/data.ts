@@ -1,13 +1,14 @@
 import awsMedia from '../images/aws-media.jpeg';
 import googleMedia from '../images/Google.webp';
 import raytheonMedia from '../images/rtx logo.png';
-import collinsMedia from '../images/collins aerospace.webp';
+import collinsMedia from '../images/c-logo.png';
 import seiMedia from '../images/lock3.png';
 import humeMedia from '../images/vt_2-transformed.png';
 import nasaMedia from '../images/NASA 1.webp';
 import taskMedia from '../images/scheduling.jpeg'
 import sentimentMedia from '../images/sentiment.webp'
 import discordMedia from '../images/discord 1.png'
+import hpeMedia from '../images/HPE_Juniper_Logo.png'
 
 export interface Item {
   type: string;
@@ -24,10 +25,49 @@ export interface Item {
 export const experiences: Item[] = [
   {
     type: 'experience',
+    company: 'Hewlett Packard Enterprise',
+    title: 'AI/ML Assurance Intern, Hewlett Packard Enterprise, Sunnyvale, CA',
+    position: 'AI/ML Assurance Intern',
+    duration: 'May 2025 — August 2025',
+    summary:
+      'Designed an end-to-end assurance tool for AI/ML workloads, architected agentic workflows that cut MTTR by 70%, and co-authored research published at IEEE ICNP.',
+    briefDescription:
+      'At Juniper Networks, which later got acquired by HPE, I integrated network diagnostic systems with FastMCP to build an end-to-end assurance platform for AI/ML services. I designed agentic workflows for root cause analysis that automatically detected and resolved service issues, reducing mean time to repair by 70%. Collaborating with the CTO, this work resulted in a paper accepted at the IEEE International Conference on Network Protocols (ICNP).',
+    fullDescription: `### End-to-End Assurance Tool
+
+### Project Scope & Responsibilities
+
+I designed an assurance platform for AI/ML workloads, connecting HPE's network diagnostic systems to FastMCP. The tool continuously monitored services and orchestrated automated remediation steps.
+
+### Advanced Technologies & Solutions
+
+To accelerate recovery, I architected agentic workflows that performed root cause analysis and initiated fixes, cutting mean time to repair by 70%.
+
+### Impact & Business Value
+
+Working closely with the CTO, we published the platform's findings at the IEEE International Conference on Network Protocols (ICNP), highlighting its role in dependable AI/ML deployments.
+
+### What I Liked
+
+Collaborating with leadership and presenting our findings at an international conference was highly rewarding, showing me how technical solutions can influence industry-wide standards.
+
+### What I Learned
+
+I gained a deeper understanding of how AI/ML assurance platforms must integrate diagnostics with remediation to maintain reliability. This taught me the value of proactive monitoring and automated workflows in critical systems.
+
+### Personal Growth
+
+This project strengthened my ability to design resilient ML systems, boosted my confidence in leading architecture design, and improved my skills in technical communication at a global level.
+`,
+    media: hpeMedia,
+  },
+
+  {
+    type: 'experience',
     company: 'Amazon Web Services',
     title: 'Machine Learning Research Fellow, Amazon Web services, Blacksburg, VA',
     position: 'Machine Learning Research Fellow',
-    duration: 'Sept. 2024 — Present',
+    duration: 'Sept. 2024 — May 2025',
     summary:
       'Researched and developed novel machine learning techniques for collaborative spectrum sensing within cloud-based distributed radio frequency systems.',
     briefDescription:
@@ -65,7 +105,7 @@ This experience helped me appreciate the complexities of cloud-based RF systems 
     title: 'Raytheon Fellowship Program, Raytheon, Sterling, VA',
     company: 'Raytheon',
     position: 'Software Engineering Intern',
-    duration: 'Aug. 2023 — Present',
+    duration: 'Aug. 2023 — May 2025',
     summary:
       'Conducted APT simulations, collaborated with UAV teams, and represented software engineering at Raytheon leadership debriefs.',
     briefDescription:

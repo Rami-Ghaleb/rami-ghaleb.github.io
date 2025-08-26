@@ -16,9 +16,9 @@ const NavBar: React.FC = () => {
     const getTabClass = (section: string) => {
         return `content-center text-center h-full cursor-pointer transition-transform duration-500 ease-in-out w-[250px] ${
             state.currentSection === section
-                ? 'text-xl font-bold transform scale-[1.01] text-red-500'
+                ? 'text-xl font-bold transform scale-[1.01]'
                 : 'text-xl'
-        }${state.currentSection !== section ? ' hover:underline hover:text-red-500' : ''}`;
+        }${state.currentSection !== section ? ' hover:underline' : ''}`;
     };
 
     useEffect(() => {
@@ -75,41 +75,41 @@ const NavBar: React.FC = () => {
                   {!isOpen ? (
                       <svg width="24" height="24" viewBox="0 0 24 24">
                           <path
-                              className="top"
-                              d="M 2 2.5 L 20 2.5"
-                              stroke="black"
-                              strokeWidth="2.5"
-                              strokeLinecap="round"
-                          />
-                          <path
-                              className="middle"
-                              d="M 2 9.423 L 20 9.423"
-                              stroke="black"
-                              strokeWidth="2.5"
-                              strokeLinecap="round"
-                          />
-                          <path
-                              className="bottom"
-                              d="M 2 16.346 L 20 16.346"
-                              stroke="black"
-                              strokeWidth="2.5"
-                              strokeLinecap="round"
-                          />
+                                className="top"
+                                d="M 2 2.5 L 20 2.5"
+                                stroke="#39ff14"
+                                strokeWidth="2.5"
+                                strokeLinecap="round"
+                            />
+                            <path
+                                className="middle"
+                                d="M 2 9.423 L 20 9.423"
+                                stroke="#39ff14"
+                                strokeWidth="2.5"
+                                strokeLinecap="round"
+                            />
+                            <path
+                                className="bottom"
+                                d="M 2 16.346 L 20 16.346"
+                                stroke="#39ff14"
+                                strokeWidth="2.5"
+                                strokeLinecap="round"
+                            />
                       </svg>
                   ) : (
                       <svg width="24" height="24" viewBox="0 0 24 24">
                           <path
-                              d="M 3 3 L 21 21"
-                              stroke="black"
-                              strokeWidth="2.5"
-                              strokeLinecap="round"
-                          />
-                          <path
-                              d="M 21 3 L 3 21"
-                              stroke="black"
-                              strokeWidth="2.5"
-                              strokeLinecap="round"
-                          />
+                                d="M 3 3 L 21 21"
+                                stroke="#39ff14"
+                                strokeWidth="2.5"
+                                strokeLinecap="round"
+                            />
+                            <path
+                                d="M 21 3 L 3 21"
+                                stroke="#39ff14"
+                                strokeWidth="2.5"
+                                strokeLinecap="round"
+                            />
                       </svg>
                   )}
               </div>
@@ -119,8 +119,8 @@ const NavBar: React.FC = () => {
             </div>
             {/* Full-Screen Mobile Menu */}
             <nav
-                className={`lg:flex justify-center items-center lg:h-16 lg:backdrop-blur-lg lg:bg-white lg:relative ${
-                    isOpen ? 'fixed inset-0 bg-white z-50' : 'hidden lg:block'
+                className={`lg:flex justify-center items-center lg:h-16 lg:backdrop-blur-lg lg:bg-black lg:relative ${
+                    isOpen ? 'fixed inset-0 bg-black z-50' : 'hidden lg:block'
                 }`}
                 style={isOpen ? { height: '100vh', width: '100vw', overflowY: 'auto' } : {}}
             >

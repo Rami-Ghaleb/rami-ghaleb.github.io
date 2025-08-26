@@ -20,7 +20,7 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0);
     border: 2px solid black;
     display: flex;
     justify-content: center;
@@ -30,19 +30,19 @@
   }
   
   .cube .front {
-    background-color: #ee4444;
+    background-color: #39ff14;
     transform: translateZ(100px);
     opacity: 0.8;
   }
   
   .cube .back {
-    background-color: #ffcc00;
+    background-color: #39ff14;
     transform: rotateY(180deg) translateZ(100px);
     opacity: 0.8;
   }
   
   .cube .left {
-    background-color: #ff0055;
+    background-color: #39ff14;
     transform: rotateY(-90deg) translateZ(100px);
     opacity: 0.8;
   }
@@ -54,13 +54,13 @@
   }
   
   .cube .top {
-    background-color: #0099ff;
+    background-color: #39ff14;
     transform: rotateX(90deg) translateZ(100px);
     opacity: 0.8;
   }
   
   .cube .bottom {
-    background-color: #22cc88;
+    background-color: #39ff14;
     transform: rotateX(-90deg) translateZ(100px);
     opacity: 0.8;
   }

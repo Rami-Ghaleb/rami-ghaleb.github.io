@@ -161,38 +161,38 @@ const Contact: React.FC = () => {
       </div>
   
       {/* Contact Form */}
-      <div className="max-w-md mx-auto mt-10 p-4 border border-gray-300 shadow-md rounded-lg bg-slate-200 z-40">
+      <div className="max-w-md mx-auto mt-10 p-4 border border-[#39ff14] shadow-md rounded-lg bg-black text-[#39ff14] z-40">
         <p className="mb-4">
           I'd love to hear from you! Whether you have a question, want to collaborate on a project, or just want to say what's up, feel free to reach out.
         </p>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name:</label>
+            <label htmlFor="name" className="block text-sm font-medium text-[#39ff14]">Name:</label>
             <input
               type="text"
               id="name"
-              className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              className="mt-1 p-2 block w-full bg-black text-[#39ff14] border border-[#39ff14] rounded-md shadow-sm focus:ring-[#39ff14] focus:border-[#39ff14] sm:text-sm"
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email:</label>
+            <label htmlFor="email" className="block text-sm font-medium text-[#39ff14]">Email:</label>
             <input
               type="email"
               id="email"
-              className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              className="mt-1 p-2 block w-full bg-black text-[#39ff14] border border-[#39ff14] rounded-md shadow-sm focus:ring-[#39ff14] focus:border-[#39ff14] sm:text-sm"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message:</label>
+            <label htmlFor="message" className="block text-sm font-medium text-[#39ff14]">Message:</label>
             <textarea
               id="message"
-              className="mt-1 h-[200px] p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-red-500 focus:border-red-500 sm:text-sm"
+              className="mt-1 h-[200px] p-2 block w-full bg-black text-[#39ff14] border border-[#39ff14] rounded-md shadow-sm focus:ring-[#39ff14] focus:border-[#39ff14] sm:text-sm"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               required
@@ -218,7 +218,7 @@ const Contact: React.FC = () => {
             href="https://github.com/rami-ghaleb"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-1/2 p-4 border border-gray-300 shadow-md rounded-lg bg-white flex justify-center items-center mr-2 hover:bg-gray-600 transition-colors duration-300 group"
+            className="w-1/2 p-4 border border-gray-300 shadow-md rounded-lg bg-[#10000] flex justify-center items-center mr-2 hover:bg-gray-600 transition-colors duration-300 group"
           >
             <img src={github} alt="GitHub" className="h-8 w-8 group-hover:scale-110 transition-transform duration-300" />
           </a>
@@ -228,7 +228,7 @@ const Contact: React.FC = () => {
             href="https://linkedin.com/in/rami-ghaleb"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-1/2 p-4 border border-gray-300 shadow-md rounded-lg bg-white flex justify-center items-center ml-2 hover:bg-gray-600 transition-colors duration-300 group"
+            className="w-1/2 p-4 border border-gray-300 shadow-md rounded-lg bg-[#10000] flex justify-center items-center ml-2 hover:bg-gray-600 transition-colors duration-300 group"
           >
             <img src={linkedIn} alt="LinkedIn" className="h-8 w-8 group-hover:scale-110 transition-transform duration-300" />
           </a>
@@ -242,7 +242,7 @@ const Contact: React.FC = () => {
         isOpen={modalIsOpen}
         onRequestClose={() => setModalIsOpen(false)}
         contentLabel="Contact Options"
-        className="m-auto max-w-sm p-6 bg-white rounded-md shadow-lg"
+        className="m-auto max-w-sm p-6 bg-[#10000] rounded-md shadow-lg"
         overlayClassName="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center"
       >
         <h2 className="text-xl font-bold mb-4">Send Text Message</h2>

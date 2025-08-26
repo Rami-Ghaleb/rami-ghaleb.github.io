@@ -169,7 +169,7 @@ const SkillCarousel: React.FC<{ items: Array<{ name: string, icon: JSX.Element, 
               width: '200px',
             }}
           >
-            <div className="card p-4 border border-gray-300 rounded-lg shadow-lg bg-white flex flex-col items-center hover:bg-gray-100 transform transition-all duration-300 ease-out">
+            <div className="card p-4 border border-gray-300 rounded-lg shadow-lg bg-[#10000] flex flex-col items-center hover:bg-gray-100 transform transition-all duration-300 ease-out">
               <div className="text-4xl text-blue-500 mb-4">{item.icon}</div>
               <h4 className="text-xl font-medium">{item.name}</h4>
               <p className="text-gray-600">Experience: {item.time}</p>
