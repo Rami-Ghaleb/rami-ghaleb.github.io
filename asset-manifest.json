@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "./static/css/main.4ba42a5b.css",
-    "main.js": "./static/js/main.729b3cc6.js",
+    "main.css": "./static/css/main.b97f52a4.css",
+    "main.js": "./static/js/main.6625bb51.js",
     "static/js/453.1581f2a8.chunk.js": "./static/js/453.1581f2a8.chunk.js",
+    "static/media/Rami-Profile-Pic.jpg": "./static/media/Rami-Profile-Pic.1699c60de5765a54965b.jpg",
     "static/media/lock3.png": "./static/media/lock3.57feebf44fe28e09196c.png",
     "static/media/vt_2-transformed.png": "./static/media/vt_2-transformed.a59d09f3dcd791a12455.png",
+    "static/media/HPE_Juniper_Logo.png": "./static/media/HPE_Juniper_Logo.ac298d927b0eec57453d.png",
     "static/media/sentiment.webp": "./static/media/sentiment.97b7d8635947ccc04f50.webp",
     "static/media/discord 1.png": "./static/media/discord 1.2f747bacf1b0c1d4a10e.png",
     "static/media/scheduling.jpeg": "./static/media/scheduling.105ad682d2ac1c4936b7.jpeg",
     "static/media/Google.webp": "./static/media/Google.4f2ffefaee60716e94b4.webp",
     "static/media/NASA 1.webp": "./static/media/NASA 1.e2f8c38f5d9e5fcf3a52.webp",
     "static/media/rtx logo.png": "./static/media/rtx logo.a3bc8204be2e6618a031.png",
-    "static/media/profile-pic.jpg": "./static/media/profile-pic.81a8fe83571a05619da6.jpg",
+    "static/media/c-logo.png": "./static/media/c-logo.0aad24338f01a8c6021b.png",
     "static/media/insta.png": "./static/media/insta.2d5cedd576ca1a740d7c.png",
     "static/media/aws-media.jpeg": "./static/media/aws-media.e7912638e4ae79934734.jpeg",
-    "static/media/collins aerospace.webp": "./static/media/collins aerospace.92f20a74d2edc590093e.webp",
     "static/media/linkedin.png": "./static/media/linkedin.68ac41e1459436bfd38f.png",
     "index.html": "./index.html",
-    "main.4ba42a5b.css.map": "./static/css/main.4ba42a5b.css.map",
-    "main.729b3cc6.js.map": "./static/js/main.729b3cc6.js.map",
+    "main.b97f52a4.css.map": "./static/css/main.b97f52a4.css.map",
+    "main.6625bb51.js.map": "./static/js/main.6625bb51.js.map",
     "453.1581f2a8.chunk.js.map": "./static/js/453.1581f2a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ba42a5b.css",
-    "static/js/main.729b3cc6.js"
+    "static/css/main.b97f52a4.css",
+    "static/js/main.6625bb51.js"
   ]
 }
